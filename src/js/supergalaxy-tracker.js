@@ -21,4 +21,7 @@ export default class AgeCalculator {
   yearsSurpassed() {
     return this.age - this.lifeExpectancyEarth;
   }
+  yearsLeftMercury() {
+    return this.yearsLeft() / .24;
+  }
 }
