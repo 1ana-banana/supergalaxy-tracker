@@ -14,4 +14,7 @@ describe('AgeCalculator', () => {
   test('should take this.age and divide it by .24 and return that value to result in a new mercuryAge value', () => {    
     expect(myAgeCalculator.mercuryAge()).toEqual(112.5);
   });
+  test('should take this.age and divide it by .62 and return that value as a new venusAge key value', () => {    
+    expect(myAgeCalculator.venusAge()).toEqual(43.54838709677419);
+  });
 });

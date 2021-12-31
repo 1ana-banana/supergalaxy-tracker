@@ -6,4 +6,7 @@ export default class AgeCalculator {
   mercuryAge() {
     return this.age / .24;
   }
+  venusAge() {
+    return this.age / .62;
+  }
 }
