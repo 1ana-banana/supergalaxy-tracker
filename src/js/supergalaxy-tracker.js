@@ -30,4 +30,7 @@ export default class AgeCalculator {
   yearsLeftMars() {
     return this.yearsLeft() / 1.88;
   }
+  yearsLeftJupiter() {
+    return this.yearsLeft() / 11.86;
+  }
 }
