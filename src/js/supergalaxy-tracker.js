@@ -15,4 +15,7 @@ export default class AgeCalculator {
   jupiterAge() {
     return this.age / 11.86;
   }
+  yearsLeft() {
+    return this.lifeExpectancyEarth - this.age;
+  }
 }

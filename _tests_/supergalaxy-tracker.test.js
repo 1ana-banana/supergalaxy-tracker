@@ -23,4 +23,7 @@ describe('AgeCalculator', () => {
   test('should take this.age and divide it by 11.86 and return that value to result in a new jupiterAge key value', () => {    
     expect(myAgeCalculator.jupiterAge()).toEqual(2.2765598650927488);
   }); 
+  test('should return the value of years left, which is this.lifeExpectancyEarth - this.age', () => {
+    expect(myAgeCalculator.yearsLeft()).toEqual(52);
+  });
 });
