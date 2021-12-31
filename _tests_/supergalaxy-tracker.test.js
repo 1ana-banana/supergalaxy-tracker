@@ -20,4 +20,7 @@ describe('AgeCalculator', () => {
   test('should take this.age and divide it by 1.88 and return that value to result in a new marsAge value', () => {    
     expect(myAgeCalculator.marsAge()).toEqual(14.361702127659575);
   });
+  test('should take this.age and divide it by 11.86 and return that value to result in a new jupiterAge key value', () => {    
+    expect(myAgeCalculator.jupiterAge()).toEqual(2.2765598650927488);
+  }); 
 });
