@@ -35,4 +35,7 @@ describe('AgeCalculator', () => {
   test('should return life expectancy left in venus years', () => {
     expect(myAgeCalculator.yearsLeftVenus()).toEqual(83.87096774193549);
   });
+  test('should return life expectancy left in mars years', () => {
+    expect(myAgeCalculator.yearsLeftMars()).toEqual(27.659574468085108);
+  });
 });
