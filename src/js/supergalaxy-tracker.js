@@ -24,4 +24,7 @@ export default class AgeCalculator {
   yearsLeftMercury() {
     return this.yearsLeft() / .24;
   }
+  yearsLeftVenus() {
+    return this.yearsLeft() / .62;
+  }
 }

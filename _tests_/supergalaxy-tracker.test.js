@@ -32,4 +32,7 @@ describe('AgeCalculator', () => {
   test('should return life expectancy left in mercury years', () => {
     expect(myAgeCalculator.yearsLeftMercury()).toEqual(216.66666666666669);
   });
+  test('should return life expectancy left in venus years', () => {
+    expect(myAgeCalculator.yearsLeftVenus()).toEqual(83.87096774193549);
+  });
 });
